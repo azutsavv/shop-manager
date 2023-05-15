@@ -13,16 +13,18 @@ class login extends StatefulWidget {
 class _loginState extends State<login> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Shop Mangement'),
-        centerTitle: true,
-      ),
-
-      body: Column(
-        children:const  [
-          Text('Login Page')
-        ],
+    return SafeArea(
+      child: Scaffold(
+        appBar: AppBar(
+          title: const Text('Shop Mangement'),
+          centerTitle: true,
+        ),
+    
+        body: Column(
+          children:const  [
+            Text('Login Page')
+          ],
+        ),
       ),
     );
   }
