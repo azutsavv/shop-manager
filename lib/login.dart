@@ -30,12 +30,14 @@ class _loginState extends State<login> {
               Color.fromARGB(255, 45, 7, 98),
               //Color.fromARGB(255, 72, 103, 118)
             ],
+
+            
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
             
             ),
           ),
-          child: const Center(
+          child: const  Center(
             child: Text('Login Page', 
             style: TextStyle(
               color: Colors.white,
